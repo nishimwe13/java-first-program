@@ -56,7 +56,7 @@ public class Finance {
 
         boolean isValidCommand = validateCommandArguments(args);
         if (!isValidCommand){
-            commandsToUsage.get(args[0]);
+            System.out.println(commandsToUsage.get(args[0]));
             return;
         }
 
